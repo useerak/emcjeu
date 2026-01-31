@@ -56,26 +56,26 @@ define gui.muted_color = '#003d51'
 define gui.hover_muted_color = '#005b7a'
 
 ## Les couleurs utilisées pour les dialogues et les menus de choix.
-define gui.text_color = '#ffffff'
-define gui.interface_text_color = '#ffffff'
+define gui.text_color = '#000000'
+define gui.interface_text_color = '#000000'
 
 
 ## Polices et tailles de police ################################################
 
 ## Les polices utilisées pour le texte du jeu.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "font/ArchitectsDaughter-Regular.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "font/ArchitectsDaughter-Regular.ttf"
 
 ## Les polices utilisées pour les textes « hors du jeu ».
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "font/ArchitectsDaughter-Regular.ttf"
 
 ## La taille normale pour les dialogues.
-define gui.text_size = 33
+define gui.text_size = 30
 
 ## La taille pour le nom des personnages.
-define gui.name_text_size = 45
+define gui.name_text_size = 40
 
 ## La taille du texte dans l’interface de jeu.
 define gui.interface_text_size = 33
@@ -93,10 +93,8 @@ define gui.title_text_size = 75
 ## Menu du jeu et menu principal ###############################################
 
 ## Les images utilisées pour le menu principal et le menu du jeu.
-define gui.main_menu_background = "gui/main_menu.png"
+define gui.main_menu_background = "gui/main_menu.jpg"
 define gui.game_menu_background = "gui/game_menu.png"
-
-
 ## Dialogue ####################################################################
 ##
 ## Ces variables contrôlent comment les dialogues sont affichés une ligne à la
@@ -113,31 +111,31 @@ define gui.textbox_yalign = 1.0
 ## L’emplacement relatif à la zone de texte du nom du personnage en train de
 ## parler. La valeur peut être un nombre entier de pixels depuis la gauche ou le
 ## haut ou 0.5 pour le centre.
-define gui.name_xpos = 360
-define gui.name_ypos = 0
+define gui.name_xpos = 0.5
+define gui.name_ypos = -22
 
 ## L’alignement horizontal du nom du personnage. La valeur peut être 0.0 pour
 ## un alignement à gauche, 0.5 pour le centrer et 1.0 pour un alignement à
 ## droite.
-define gui.name_xalign = 0.0
+define gui.name_xalign = 0.5
 
 ## La largeur, profondeur et les bords de la zone contenant le nom du
 ## personnage ou « None » pour le dimensionner automatiquement.
-define gui.namebox_width = None
+define gui.namebox_width = 300
 define gui.namebox_height = None
 
 ## Les bordures de la zone contenant le nom du personnage dans l’ordre suivant
 ## gauche, haut, droite, bas.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(15, 7, 15, 7)
 
 ## Si « True » (vrai), l’arrière plan de zone du nom sera en mosaïque, si
 ## « False »(faux), l’arrière plan de la zone du nom sera mis à l’échelle.
-define gui.namebox_tile = False
+define gui.namebox_tile = True
 
 
 ## L’emplacement du dialogue relatif à la zone de texte. La valeur peut être un
 ## nombre entier de pixels depuis la gauche ou le haut ou 0.5 pour le centre.
-define gui.dialogue_xpos = 402
+define gui.dialogue_xpos = 0.5
 define gui.dialogue_ypos = 75
 
 ## La largeur maximale en pixels de la zone de dialogue.
@@ -146,7 +144,7 @@ define gui.dialogue_width = 1116
 ## L’alignement horizontal de la zone de dialogue. La valeur peut être 0.0
 ## pour un alignement à gauche, 0.5 pour le centrer et 1.0 pour un alignement à
 ## droite.
-define gui.dialogue_text_xalign = 0.0
+define gui.dialogue_text_xalign = 0.5
 
 
 ## Boutons #####################################################################
@@ -223,7 +221,7 @@ define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
 define gui.choice_button_text_idle_color = '#888888'
-define gui.choice_button_text_hover_color = "#ffffff"
+define gui.choice_button_text_hover_color = "#0066cc"
 define gui.choice_button_text_insensitive_color = '#8888887f'
 
 

@@ -355,8 +355,10 @@ screen main_menu():
 
     ## Ceci assure que tout autre screen de menu est remplacé.
     tag menu
-
-    add gui.main_menu_background
+    add gui.main_menu_background:
+        size (1920, 1080)    # Remplace par la résolution de ton jeu
+        xalign 0.5           # Centre l'image
+        yalign 0.5
 
     ## Cette frame vide obscurcit le menu principal.
     frame:
